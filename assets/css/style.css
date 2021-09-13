@@ -708,10 +708,15 @@ section {
 }
 
 .about .icon-boxes h3 {
-  font-size: 28px;
+  font-size: 40px;
   font-weight: 700;
   color: #569DD9;
   margin-bottom: 15px;
+}
+.about .icon-boxes p{
+font-size: 18px;
+text-align: justify;
+letter-spacing: 1px;
 }
 
 .about .icon-box {
@@ -767,7 +772,7 @@ section {
 }
 
 .about .video-box {
-  background: url("../img/about.png") center center no-repeat;
+  background: url("../img/dokter.jpg") center center no-repeat;
   background-size: contain;
   min-height: 300px;
 }

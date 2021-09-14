@@ -338,7 +338,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: rgba(19, 114, 189);;
+  color: rgba(19, 114, 189);
   text-decoration: none;
 }
 
@@ -374,7 +374,8 @@ h1, h2, h3, h4, h5, h6 {
   top: 0;
   left: 0;
   position: fixed;
-  background: rgba(13, 18, 252, 0.6);
+  background: rgba(19, 114, 189);
+  font-weight: bold;
   overflow: hidden;
   display: none;
   transition: ease-in-out 0.2s;
@@ -1692,6 +1693,10 @@ letter-spacing: 1px;
   border-top: 1px solid #56A0DF;
   text-align: center;
   padding-top: 30px;
+  
+}
+#footer .copyright p a{
+  color:#fff;
 }
 
 #footer .credits {

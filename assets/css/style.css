@@ -439,12 +439,15 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 1px;
   display: inline-block;
   padding: 10px 30px;
-  border-radius: 50px;
+  border-radius: 20px;
   transition: 0.5s;
   color: #fff;
   background: rgba(19, 114, 189);
 }
-
+#hero .btn-dark {
+  background: #000000;
+  border-radius: 10px;
+}
 #hero .btn-get-started:hover {
   background:  rgba(19, 114, 189);
 }
@@ -457,6 +460,11 @@ h1, h2, h3, h4, h5, h6 {
   #hero {
     background-attachment: fixed;
   }
+  #hero .hero-img img {
+    max-width: 100%;
+    margin-left: 100px;
+  }
+ 
 }
 
 @media (max-width: 991px) {
@@ -469,6 +477,7 @@ h1, h2, h3, h4, h5, h6 {
   }
   #hero .hero-img {
     text-align: center;
+
   }
   #hero .hero-img img {
     max-width: 50%;
